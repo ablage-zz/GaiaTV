@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	1F05C9190EC0E0EF003CDCC2 /* Services.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 832}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 763}";
+		};
+	};
+	1F05C91A0EC0E0EF003CDCC2 /* Services.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1859, 7813}}";
+			sepNavSelRange = "{767, 0}";
+			sepNavVisRange = "{257, 1142}";
+			sepNavWindowFrame = "{{15, 468}, {1016, 585}}";
+		};
+	};
+	1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1456}}";
+			sepNavSelRange = "{1222, 0}";
+			sepNavVisRange = "{1000, 392}";
+		};
+	};
+	1F5555200EBEB7D900BD3754 /* HDChannelAddress.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 936}}";
+			sepNavSelRange = "{1070, 0}";
+			sepNavVisRange = "{445, 1158}";
+		};
+	};
+	1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 3133}}";
+			sepNavSelRange = "{3742, 0}";
+			sepNavVisRange = "{1489, 1634}";
+		};
+	};
+	1F5555220EBEB7D900BD3754 /* HDHomeRunControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 689}}";
+			sepNavSelRange = "{556, 52}";
+			sepNavVisRange = "{228, 567}";
+		};
+	};
+	1F5555230EBEB7D900BD3754 /* HDHomeRunControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1885}}";
+			sepNavSelRange = "{864, 0}";
+			sepNavVisRange = "{3, 836}";
+		};
+	};
+	1F5555240EBEB7D900BD3754 /* HDHomeRunTuner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 1339}}";
+			sepNavSelRange = "{1055, 0}";
+			sepNavVisRange = "{581, 1024}";
+		};
+	};
+	1F5555250EBEB7D900BD3754 /* HDHomeRunTuner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 6968}}";
+			sepNavSelRange = "{2340, 0}";
+			sepNavVisRange = "{2055, 785}";
+		};
+	};
+	1F5555260EBEB7D900BD3754 /* HDHomeRunUnit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 585}}";
+			sepNavSelRange = "{662, 0}";
+			sepNavVisRange = "{133, 697}";
+		};
+	};
+	1F5555270EBEB7D900BD3754 /* HDHomeRunUnit.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 3042}}";
+			sepNavSelRange = "{1939, 0}";
+			sepNavVisRange = "{1342, 626}";
+		};
+	};
+	1F5555290EBEB7D900BD3754 /* HDVideoStatistic.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2826, 1625}}";
+			sepNavSelRange = "{344, 0}";
+			sepNavVisRange = "{171, 799}";
+		};
+	};
+	1F5B12230EC4C06C008C1849 /* TvVideoController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1547}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{699, 846}";
+		};
+	};
+	1FBD3C470EB96BB900C4A77D /* Channel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 4264}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 301}";
+		};
+	};
+	1FBD3CF20EBA56D000C4A77D /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 962}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1183, 405}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8F172885115D361C008AD795 /* GaiaTV */;
+		activeTarget = 8D1107260486CEB800E47090 /* GaiaTV */;
+		breakpoints = (
+			8F69954C115D603C000CC78C /* PreferencesController.m:57 */,
+			8F9DB9FB118261790088C912 /* HDChannelAddress.m:98 */,
+			8F9DB9FD1182617E0088C912 /* HDChannelAddress.m:76 */,
+			8F9DB9FF118261AD0088C912 /* PreferencesController.m:58 */,
+		);
+		codeSenseManager = 8F1728A5115D3636008AD795 /* Code sense */;
+		executables = (
+			8F172885115D361C008AD795 /* GaiaTV */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					150.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					688,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293757284;
+			PBXWorkspaceStateSaveDate = 293757284;
+		};
+		perUserProjectItems = {
+			8F69954E115D6040000CC78C /* PBXTextBookmark */ = 8F69954E115D6040000CC78C /* PBXTextBookmark */;
+			8F69954F115D6040000CC78C /* PBXTextBookmark */ = 8F69954F115D6040000CC78C /* PBXTextBookmark */;
+			8F699562115D6523000CC78C /* PBXTextBookmark */ = 8F699562115D6523000CC78C /* PBXTextBookmark */;
+			8F69956B115D6DC8000CC78C /* PBXTextBookmark */ = 8F69956B115D6DC8000CC78C /* PBXTextBookmark */;
+			8F69956C115D6DC8000CC78C /* PBXTextBookmark */ = 8F69956C115D6DC8000CC78C /* PBXTextBookmark */;
+			8F69956D115D6DC8000CC78C /* PBXTextBookmark */ = 8F69956D115D6DC8000CC78C /* PBXTextBookmark */;
+			8F69956E115D6DC8000CC78C /* PBXTextBookmark */ = 8F69956E115D6DC8000CC78C /* PBXTextBookmark */;
+			8F699570115D6DC8000CC78C /* PBXTextBookmark */ = 8F699570115D6DC8000CC78C /* PBXTextBookmark */;
+			8F699571115D6DC8000CC78C /* PBXTextBookmark */ = 8F699571115D6DC8000CC78C /* PBXTextBookmark */;
+			8F9DBA071182620D0088C912 /* PBXTextBookmark */ = 8F9DBA071182620D0088C912 /* PBXTextBookmark */;
+			8F9DBA081182620D0088C912 /* PBXTextBookmark */ = 8F9DBA081182620D0088C912 /* PBXTextBookmark */;
+			8F9DBA091182620D0088C912 /* PBXTextBookmark */ = 8F9DBA091182620D0088C912 /* PBXTextBookmark */;
+			8F9DBA0A1182620D0088C912 /* PBXTextBookmark */ = 8F9DBA0A1182620D0088C912 /* PBXTextBookmark */;
+			8F9DBA0B1182620D0088C912 /* PBXTextBookmark */ = 8F9DBA0B1182620D0088C912 /* PBXTextBookmark */;
+			8F9DBA0C1182620D0088C912 /* XCBuildMessageTextBookmark */ = 8F9DBA0C1182620D0088C912 /* XCBuildMessageTextBookmark */;
+			8F9DBA1C118372D30088C912 /* PBXTextBookmark */ = 8F9DBA1C118372D30088C912 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8F1728A4115D3636008AD795 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* GaiaTV */ = {
+		activeExec = 0;
+		executables = (
+			8F172885115D361C008AD795 /* GaiaTV */,
+		);
+	};
+	8F172885115D361C008AD795 /* GaiaTV */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GaiaTV;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	8F1728A4115D3636008AD795 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8F1728A5115D3636008AD795 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8F69954C115D603C000CC78C /* PreferencesController.m:57 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */;
+		functionName = "-scanClick:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 57;
+		location = GaiaTV;
+		modificationTime = 293827274.083594;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	8F69954E115D6040000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555290EBEB7D900BD3754 /* HDVideoStatistic.m */;
+		name = "HDVideoStatistic.m: 20";
+		rLen = 0;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 171;
+	};
+	8F69954F115D6040000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBD3CF20EBA56D000C4A77D /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 1183;
+	};
+	8F699562115D6523000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBD3C470EB96BB900C4A77D /* Channel.m */;
+		name = "Channel.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	8F69956B115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555220EBEB7D900BD3754 /* HDHomeRunControl.h */;
+		name = "HDHomeRunControl.h: 42";
+		rLen = 52;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 228;
+	};
+	8F69956C115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555250EBEB7D900BD3754 /* HDHomeRunTuner.m */;
+		name = "HDHomeRunTuner.m: 95";
+		rLen = 0;
+		rLoc = 2340;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 2055;
+	};
+	8F69956D115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555240EBEB7D900BD3754 /* HDHomeRunTuner.h */;
+		name = "HDHomeRunTuner.h: 47";
+		rLen = 0;
+		rLoc = 1055;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 581;
+	};
+	8F69956E115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555260EBEB7D900BD3754 /* HDHomeRunUnit.h */;
+		name = "HDHomeRunUnit.h: 34";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 133;
+	};
+	8F699570115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555270EBEB7D900BD3754 /* HDHomeRunUnit.m */;
+		name = "HDHomeRunUnit.m: 79";
+		rLen = 0;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 1342;
+	};
+	8F699571115D6DC8000CC78C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555200EBEB7D900BD3754 /* HDChannelAddress.h */;
+		name = "HDChannelAddress.h: 45";
+		rLen = 0;
+		rLoc = 1070;
+		rType = 0;
+		vrLen = 1158;
+		vrLoc = 445;
+	};
+	8F9DB9FB118261790088C912 /* HDChannelAddress.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */;
+		functionName = "-encodeWithCoder:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		location = GaiaTV;
+		modificationTime = 293827274.083806;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8F9DB9FD1182617E0088C912 /* HDChannelAddress.m:76 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */;
+		functionName = "-initWithCoder:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 76;
+		location = GaiaTV;
+		modificationTime = 293827274.083826;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8F9DB9FF118261AD0088C912 /* PreferencesController.m:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */;
+		functionName = "-scanClick:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 58;
+		modificationTime = 293827274.083839;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	8F9DBA071182620D0088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F05C9190EC0E0EF003CDCC2 /* Services.h */;
+		name = "Services.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 0;
+	};
+	8F9DBA081182620D0088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */;
+		name = "HDChannelAddress.m: 128";
+		rLen = 0;
+		rLoc = 3742;
+		rType = 0;
+		vrLen = 1634;
+		vrLoc = 1489;
+	};
+	8F9DBA091182620D0088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5555230EBEB7D900BD3754 /* HDHomeRunControl.m */;
+		name = "HDHomeRunControl.m: 44";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 3;
+	};
+	8F9DBA0A1182620D0088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5B12230EC4C06C008C1849 /* TvVideoController.m */;
+		name = "TvVideoController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 699;
+	};
+	8F9DBA0B1182620D0088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */;
+		name = "PreferencesController.m: 57";
+		rLen = 0;
+		rLoc = 1226;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 555;
+	};
+	8F9DBA0C1182620D0088C912 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Format not a string literal and no format arguments";
+		fRef = 1F05C91A0EC0E0EF003CDCC2 /* Services.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 37;
+		rType = 1;
+	};
+	8F9DBA1C118372D30088C912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F05C91A0EC0E0EF003CDCC2 /* Services.m */;
+		name = "Services.m: 38";
+		rLen = 0;
+		rLoc = 722;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 298;
+	};
+}

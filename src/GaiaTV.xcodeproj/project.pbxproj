@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F05C91B0EC0E0EF003CDCC2 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05C91A0EC0E0EF003CDCC2 /* Services.m */; };
+		1F05CF3B0EC2B569003CDCC2 /* TVVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F05CF3A0EC2B569003CDCC2 /* TVVideo.xib */; };
+		1F05CFDA0EC2C93D003CDCC2 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */; };
+		1F55552A0EBEB7D900BD3754 /* HDChannelAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */; };
+		1F55552B0EBEB7D900BD3754 /* HDHomeRunControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5555230EBEB7D900BD3754 /* HDHomeRunControl.m */; };
+		1F55552C0EBEB7D900BD3754 /* HDHomeRunTuner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5555250EBEB7D900BD3754 /* HDHomeRunTuner.m */; };
+		1F55552D0EBEB7D900BD3754 /* HDHomeRunUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5555270EBEB7D900BD3754 /* HDHomeRunUnit.m */; };
+		1F55552E0EBEB7D900BD3754 /* HDVideoStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5555290EBEB7D900BD3754 /* HDVideoStatistic.m */; };
+		1F566CC9115BFBFF00703181 /* hdhomerun_channels.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CAD115BFBFF00703181 /* hdhomerun_channels.c */; };
+		1F566CCA115BFBFF00703181 /* hdhomerun_channelscan.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CAF115BFBFF00703181 /* hdhomerun_channelscan.c */; };
+		1F566CCB115BFBFF00703181 /* hdhomerun_control.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CB1115BFBFF00703181 /* hdhomerun_control.c */; };
+		1F566CCC115BFBFF00703181 /* hdhomerun_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CB3115BFBFF00703181 /* hdhomerun_debug.c */; };
+		1F566CCD115BFBFF00703181 /* hdhomerun_device.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CB5115BFBFF00703181 /* hdhomerun_device.c */; };
+		1F566CCE115BFBFF00703181 /* hdhomerun_device_selector.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CB7115BFBFF00703181 /* hdhomerun_device_selector.c */; };
+		1F566CCF115BFBFF00703181 /* hdhomerun_discover.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CB9115BFBFF00703181 /* hdhomerun_discover.c */; };
+		1F566CD0115BFBFF00703181 /* hdhomerun_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CBC115BFBFF00703181 /* hdhomerun_os_posix.c */; };
+		1F566CD2115BFBFF00703181 /* hdhomerun_pkt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CC0115BFBFF00703181 /* hdhomerun_pkt.c */; };
+		1F566CD3115BFBFF00703181 /* hdhomerun_sock_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CC4115BFBFF00703181 /* hdhomerun_sock_posix.c */; };
+		1F566CD5115BFBFF00703181 /* hdhomerun_video.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F566CC7115BFBFF00703181 /* hdhomerun_video.c */; };
+		1F5B12240EC4C06C008C1849 /* TvVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B12230EC4C06C008C1849 /* TvVideoController.m */; };
+		1F5E597D115D5EAF00668C58 /* ChannelAddresses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5E597C115D5EAF00668C58 /* ChannelAddresses.plist */; };
+		1F87596F0EC9005300DE9B87 /* HDHomeRunIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F87596E0EC9005300DE9B87 /* HDHomeRunIP.m */; };
+		1F8759720EC9006200DE9B87 /* HDHomeRunID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8759710EC9006200DE9B87 /* HDHomeRunID.m */; };
+		1FA937660EC7EC96000925C5 /* Transformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA937650EC7EC96000925C5 /* Transformer.m */; };
+		1FBD3C450EB96BA100C4A77D /* Bouquet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD3C440EB96BA100C4A77D /* Bouquet.m */; };
+		1FBD3C480EB96BB900C4A77D /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD3C470EB96BB900C4A77D /* Channel.m */; };
+		1FBD3CF30EBA56D000C4A77D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD3CF20EBA56D000C4A77D /* AppController.m */; };
+		1FD7B6ED0EBFCAFE0057715C /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7B6EC0EBFCAFE0057715C /* Preferences.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F05C9190EC0E0EF003CDCC2 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		1F05C91A0EC0E0EF003CDCC2 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		1F05CF3A0EC2B569003CDCC2 /* TVVideo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVVideo.xib; sourceTree = "<group>"; };
+		1F05CFD80EC2C93D003CDCC2 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		1F5555200EBEB7D900BD3754 /* HDChannelAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDChannelAddress.h; sourceTree = "<group>"; };
+		1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDChannelAddress.m; sourceTree = "<group>"; };
+		1F5555220EBEB7D900BD3754 /* HDHomeRunControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeRunControl.h; sourceTree = "<group>"; };
+		1F5555230EBEB7D900BD3754 /* HDHomeRunControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeRunControl.m; sourceTree = "<group>"; };
+		1F5555240EBEB7D900BD3754 /* HDHomeRunTuner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeRunTuner.h; sourceTree = "<group>"; };
+		1F5555250EBEB7D900BD3754 /* HDHomeRunTuner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeRunTuner.m; sourceTree = "<group>"; };
+		1F5555260EBEB7D900BD3754 /* HDHomeRunUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeRunUnit.h; sourceTree = "<group>"; };
+		1F5555270EBEB7D900BD3754 /* HDHomeRunUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeRunUnit.m; sourceTree = "<group>"; };
+		1F5555280EBEB7D900BD3754 /* HDVideoStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDVideoStatistic.h; sourceTree = "<group>"; };
+		1F5555290EBEB7D900BD3754 /* HDVideoStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDVideoStatistic.m; sourceTree = "<group>"; };
+		1F566CA9115BFBFF00703181 /* hdhomerun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun.h; path = ../HDHomeRun/hdhomerun.h; sourceTree = SOURCE_ROOT; };
+		1F566CAD115BFBFF00703181 /* hdhomerun_channels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_channels.c; path = ../HDHomeRun/hdhomerun_channels.c; sourceTree = SOURCE_ROOT; };
+		1F566CAE115BFBFF00703181 /* hdhomerun_channels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_channels.h; path = ../HDHomeRun/hdhomerun_channels.h; sourceTree = SOURCE_ROOT; };
+		1F566CAF115BFBFF00703181 /* hdhomerun_channelscan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_channelscan.c; path = ../HDHomeRun/hdhomerun_channelscan.c; sourceTree = SOURCE_ROOT; };
+		1F566CB0115BFBFF00703181 /* hdhomerun_channelscan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_channelscan.h; path = ../HDHomeRun/hdhomerun_channelscan.h; sourceTree = SOURCE_ROOT; };
+		1F566CB1115BFBFF00703181 /* hdhomerun_control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_control.c; path = ../HDHomeRun/hdhomerun_control.c; sourceTree = SOURCE_ROOT; };
+		1F566CB2115BFBFF00703181 /* hdhomerun_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_control.h; path = ../HDHomeRun/hdhomerun_control.h; sourceTree = SOURCE_ROOT; };
+		1F566CB3115BFBFF00703181 /* hdhomerun_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_debug.c; path = ../HDHomeRun/hdhomerun_debug.c; sourceTree = SOURCE_ROOT; };
+		1F566CB4115BFBFF00703181 /* hdhomerun_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_debug.h; path = ../HDHomeRun/hdhomerun_debug.h; sourceTree = SOURCE_ROOT; };
+		1F566CB5115BFBFF00703181 /* hdhomerun_device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_device.c; path = ../HDHomeRun/hdhomerun_device.c; sourceTree = SOURCE_ROOT; };
+		1F566CB6115BFBFF00703181 /* hdhomerun_device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_device.h; path = ../HDHomeRun/hdhomerun_device.h; sourceTree = SOURCE_ROOT; };
+		1F566CB7115BFBFF00703181 /* hdhomerun_device_selector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_device_selector.c; path = ../HDHomeRun/hdhomerun_device_selector.c; sourceTree = SOURCE_ROOT; };
+		1F566CB8115BFBFF00703181 /* hdhomerun_device_selector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_device_selector.h; path = ../HDHomeRun/hdhomerun_device_selector.h; sourceTree = SOURCE_ROOT; };
+		1F566CB9115BFBFF00703181 /* hdhomerun_discover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_discover.c; path = ../HDHomeRun/hdhomerun_discover.c; sourceTree = SOURCE_ROOT; };
+		1F566CBA115BFBFF00703181 /* hdhomerun_discover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_discover.h; path = ../HDHomeRun/hdhomerun_discover.h; sourceTree = SOURCE_ROOT; };
+		1F566CBB115BFBFF00703181 /* hdhomerun_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_os.h; path = ../HDHomeRun/hdhomerun_os.h; sourceTree = SOURCE_ROOT; };
+		1F566CBC115BFBFF00703181 /* hdhomerun_os_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_os_posix.c; path = ../HDHomeRun/hdhomerun_os_posix.c; sourceTree = SOURCE_ROOT; };
+		1F566CBD115BFBFF00703181 /* hdhomerun_os_posix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_os_posix.h; path = ../HDHomeRun/hdhomerun_os_posix.h; sourceTree = SOURCE_ROOT; };
+		1F566CC0115BFBFF00703181 /* hdhomerun_pkt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_pkt.c; path = ../HDHomeRun/hdhomerun_pkt.c; sourceTree = SOURCE_ROOT; };
+		1F566CC1115BFBFF00703181 /* hdhomerun_pkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_pkt.h; path = ../HDHomeRun/hdhomerun_pkt.h; sourceTree = SOURCE_ROOT; };
+		1F566CC3115BFBFF00703181 /* hdhomerun_sock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_sock.h; path = ../HDHomeRun/hdhomerun_sock.h; sourceTree = SOURCE_ROOT; };
+		1F566CC4115BFBFF00703181 /* hdhomerun_sock_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_sock_posix.c; path = ../HDHomeRun/hdhomerun_sock_posix.c; sourceTree = SOURCE_ROOT; };
+		1F566CC6115BFBFF00703181 /* hdhomerun_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_types.h; path = ../HDHomeRun/hdhomerun_types.h; sourceTree = SOURCE_ROOT; };
+		1F566CC7115BFBFF00703181 /* hdhomerun_video.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdhomerun_video.c; path = ../HDHomeRun/hdhomerun_video.c; sourceTree = SOURCE_ROOT; };
+		1F566CC8115BFBFF00703181 /* hdhomerun_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdhomerun_video.h; path = ../HDHomeRun/hdhomerun_video.h; sourceTree = SOURCE_ROOT; };
+		1F5B12220EC4C06C008C1849 /* TvVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvVideoController.h; sourceTree = "<group>"; };
+		1F5B12230EC4C06C008C1849 /* TvVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvVideoController.m; sourceTree = "<group>"; };
+		1F5E597C115D5EAF00668C58 /* ChannelAddresses.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChannelAddresses.plist; sourceTree = "<group>"; };
+		1F87596D0EC9005300DE9B87 /* HDHomeRunIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeRunIP.h; sourceTree = "<group>"; };
+		1F87596E0EC9005300DE9B87 /* HDHomeRunIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeRunIP.m; sourceTree = "<group>"; };
+		1F8759700EC9006200DE9B87 /* HDHomeRunID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeRunID.h; sourceTree = "<group>"; };
+		1F8759710EC9006200DE9B87 /* HDHomeRunID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeRunID.m; sourceTree = "<group>"; };
+		1FA937640EC7EC96000925C5 /* Transformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transformer.h; sourceTree = "<group>"; };
+		1FA937650EC7EC96000925C5 /* Transformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transformer.m; sourceTree = "<group>"; };
+		1FBD3C430EB96BA100C4A77D /* Bouquet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bouquet.h; sourceTree = "<group>"; };
+		1FBD3C440EB96BA100C4A77D /* Bouquet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bouquet.m; sourceTree = "<group>"; };
+		1FBD3C460EB96BB900C4A77D /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		1FBD3C470EB96BB900C4A77D /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		1FBD3CF10EBA56D000C4A77D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1FBD3CF20EBA56D000C4A77D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1FD7B6EC0EBFCAFE0057715C /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* GaiaTV_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaiaTV_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* GaiaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaiaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1FA937630EC7EC7C000925C5 /* System */,
+				1F5B63070EC6D60200A1E0AB /* Application */,
+				1F5B63060EC6D5AA00A1E0AB /* Window */,
+				1FD7B75B0EBFF75B0057715C /* Channels */,
+				1F55551F0EBEB7A400BD3754 /* Frameworks */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* GaiaTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F05CFA60EC2BB6D003CDCC2 /* Private Framworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Private Framworks";
+			sourceTree = "<group>";
+		};
+		1F55551F0EBEB7A400BD3754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F566CA8115BFBF200703181 /* Lib */,
+				1F8759310EC8F61800DE9B87 /* HDHomeRun */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F566CA8115BFBF200703181 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F566CA9115BFBFF00703181 /* hdhomerun.h */,
+				1F566CAD115BFBFF00703181 /* hdhomerun_channels.c */,
+				1F566CAE115BFBFF00703181 /* hdhomerun_channels.h */,
+				1F566CAF115BFBFF00703181 /* hdhomerun_channelscan.c */,
+				1F566CB0115BFBFF00703181 /* hdhomerun_channelscan.h */,
+				1F566CB1115BFBFF00703181 /* hdhomerun_control.c */,
+				1F566CB2115BFBFF00703181 /* hdhomerun_control.h */,
+				1F566CB3115BFBFF00703181 /* hdhomerun_debug.c */,
+				1F566CB4115BFBFF00703181 /* hdhomerun_debug.h */,
+				1F566CB5115BFBFF00703181 /* hdhomerun_device.c */,
+				1F566CB6115BFBFF00703181 /* hdhomerun_device.h */,
+				1F566CB7115BFBFF00703181 /* hdhomerun_device_selector.c */,
+				1F566CB8115BFBFF00703181 /* hdhomerun_device_selector.h */,
+				1F566CB9115BFBFF00703181 /* hdhomerun_discover.c */,
+				1F566CBA115BFBFF00703181 /* hdhomerun_discover.h */,
+				1F566CBB115BFBFF00703181 /* hdhomerun_os.h */,
+				1F566CBC115BFBFF00703181 /* hdhomerun_os_posix.c */,
+				1F566CBD115BFBFF00703181 /* hdhomerun_os_posix.h */,
+				1F566CC0115BFBFF00703181 /* hdhomerun_pkt.c */,
+				1F566CC1115BFBFF00703181 /* hdhomerun_pkt.h */,
+				1F566CC3115BFBFF00703181 /* hdhomerun_sock.h */,
+				1F566CC4115BFBFF00703181 /* hdhomerun_sock_posix.c */,
+				1F566CC6115BFBFF00703181 /* hdhomerun_types.h */,
+				1F566CC7115BFBFF00703181 /* hdhomerun_video.c */,
+				1F566CC8115BFBFF00703181 /* hdhomerun_video.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		1F5B12210EC4C03D008C1849 /* TVVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B12220EC4C06C008C1849 /* TvVideoController.h */,
+				1F5B12230EC4C06C008C1849 /* TvVideoController.m */,
+				1F05CF3A0EC2B569003CDCC2 /* TVVideo.xib */,
+			);
+			name = TVVideo;
+			sourceTree = "<group>";
+		};
+		1F5B63060EC6D5AA00A1E0AB /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				1FD7B6EF0EBFD7FB0057715C /* Preferences */,
+				1F5B12210EC4C03D008C1849 /* TVVideo */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		1F5B63070EC6D60200A1E0AB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD3CF10EBA56D000C4A77D /* AppController.h */,
+				1FBD3CF20EBA56D000C4A77D /* AppController.m */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1F8759310EC8F61800DE9B87 /* HDHomeRun */ = {
+			isa = PBXGroup;
+			children = (
+				1F5555200EBEB7D900BD3754 /* HDChannelAddress.h */,
+				1F5555210EBEB7D900BD3754 /* HDChannelAddress.m */,
+				1F5555220EBEB7D900BD3754 /* HDHomeRunControl.h */,
+				1F5555230EBEB7D900BD3754 /* HDHomeRunControl.m */,
+				1F5555240EBEB7D900BD3754 /* HDHomeRunTuner.h */,
+				1F5555250EBEB7D900BD3754 /* HDHomeRunTuner.m */,
+				1F5555260EBEB7D900BD3754 /* HDHomeRunUnit.h */,
+				1F5555270EBEB7D900BD3754 /* HDHomeRunUnit.m */,
+				1F5555280EBEB7D900BD3754 /* HDVideoStatistic.h */,
+				1F5555290EBEB7D900BD3754 /* HDVideoStatistic.m */,
+			);
+			name = HDHomeRun;
+			sourceTree = "<group>";
+		};
+		1FA937630EC7EC7C000925C5 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1FA937640EC7EC96000925C5 /* Transformer.h */,
+				1FA937650EC7EC96000925C5 /* Transformer.m */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		1FD7B6EF0EBFD7FB0057715C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				1F05CFD80EC2C93D003CDCC2 /* PreferencesController.h */,
+				1F05CFD90EC2C93D003CDCC2 /* PreferencesController.m */,
+				1FD7B6EC0EBFCAFE0057715C /* Preferences.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		1FD7B75B0EBFF75B0057715C /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD3C430EB96BA100C4A77D /* Bouquet.h */,
+				1FBD3C440EB96BA100C4A77D /* Bouquet.m */,
+				1FBD3C460EB96BB900C4A77D /* Channel.h */,
+				1FBD3C470EB96BB900C4A77D /* Channel.m */,
+				1F05C9190EC0E0EF003CDCC2 /* Services.h */,
+				1F05C91A0EC0E0EF003CDCC2 /* Services.m */,
+			);
+			name = Channels;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GaiaTV */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GaiaTV;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F87596D0EC9005300DE9B87 /* HDHomeRunIP.h */,
+				1F87596E0EC9005300DE9B87 /* HDHomeRunIP.m */,
+				1F8759700EC9006200DE9B87 /* HDHomeRunID.h */,
+				1F8759710EC9006200DE9B87 /* HDHomeRunID.m */,
+				32CA4F630368D1EE00C91783 /* GaiaTV_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F5E597C115D5EAF00668C58 /* ChannelAddresses.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F05CFA60EC2BB6D003CDCC2 /* Private Framworks */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* GaiaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GaiaTV" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaiaTV;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GaiaTV;
+			productReference = 8D1107320486CEB800E47090 /* GaiaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GaiaTV" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GaiaTV */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* GaiaTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1FD7B6ED0EBFCAFE0057715C /* Preferences.xib in Resources */,
+				1F05CF3B0EC2B569003CDCC2 /* TVVideo.xib in Resources */,
+				1F5E597D115D5EAF00668C58 /* ChannelAddresses.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1FBD3C450EB96BA100C4A77D /* Bouquet.m in Sources */,
+				1FBD3C480EB96BB900C4A77D /* Channel.m in Sources */,
+				1FBD3CF30EBA56D000C4A77D /* AppController.m in Sources */,
+				1F55552A0EBEB7D900BD3754 /* HDChannelAddress.m in Sources */,
+				1F55552B0EBEB7D900BD3754 /* HDHomeRunControl.m in Sources */,
+				1F55552C0EBEB7D900BD3754 /* HDHomeRunTuner.m in Sources */,
+				1F55552D0EBEB7D900BD3754 /* HDHomeRunUnit.m in Sources */,
+				1F55552E0EBEB7D900BD3754 /* HDVideoStatistic.m in Sources */,
+				1F05C91B0EC0E0EF003CDCC2 /* Services.m in Sources */,
+				1F05CFDA0EC2C93D003CDCC2 /* PreferencesController.m in Sources */,
+				1F5B12240EC4C06C008C1849 /* TvVideoController.m in Sources */,
+				1FA937660EC7EC96000925C5 /* Transformer.m in Sources */,
+				1F87596F0EC9005300DE9B87 /* HDHomeRunIP.m in Sources */,
+				1F8759720EC9006200DE9B87 /* HDHomeRunID.m in Sources */,
+				1F566CC9115BFBFF00703181 /* hdhomerun_channels.c in Sources */,
+				1F566CCA115BFBFF00703181 /* hdhomerun_channelscan.c in Sources */,
+				1F566CCB115BFBFF00703181 /* hdhomerun_control.c in Sources */,
+				1F566CCC115BFBFF00703181 /* hdhomerun_debug.c in Sources */,
+				1F566CCD115BFBFF00703181 /* hdhomerun_device.c in Sources */,
+				1F566CCE115BFBFF00703181 /* hdhomerun_device_selector.c in Sources */,
+				1F566CCF115BFBFF00703181 /* hdhomerun_discover.c in Sources */,
+				1F566CD0115BFBFF00703181 /* hdhomerun_os_posix.c in Sources */,
+				1F566CD2115BFBFF00703181 /* hdhomerun_pkt.c in Sources */,
+				1F566CD3115BFBFF00703181 /* hdhomerun_sock_posix.c in Sources */,
+				1F566CD5115BFBFF00703181 /* hdhomerun_video.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Private Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GaiaTV_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = GaiaTV;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Private Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GaiaTV_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = GaiaTV;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GaiaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GaiaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
